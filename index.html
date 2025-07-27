@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Manjunatha Battery Point</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      background-color: #ffffff;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .contact {
+      text-align: right;
+      font-size: 14px;
+    }
+    .announcement {
+      background: #e6f2ff;
+      color: #003366;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #003366;
+    }
+    .batteries,
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      flex: 1 1 220px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: contain;
+    }
+    .distilled-water {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .distilled-water img {
+      max-width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .contact {
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+    /* Phone number center highlight */
+    .call-us-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .call-us-container a {
+      font-size: 24px;
+      font-weight: 700;
+      color: #d32f2f;
+      text-decoration: none;
+      border: 2px solid #d32f2f;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    .call-us-container a:hover,
+    .call-us-container a:focus {
+      background-color: #d32f2f;
+      color: white;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; align-items:center">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/2329/2329102.png"
+        alt="Battery Logo"
+      />
+      <h1>Sri Manjunatha Battery Point</h1>
+    </div>
+    <div class="contact">
+      <p>
+        75/3, Hesarghatta Rd, opposite Giriyappa Kalayana Mantap,<br />
+        next to 8th mile club and DMart Mallasandra,<br />
+        T. Dasarahalli, Bengaluru, Karnataka 560073
+      </p>
+      <p>
+        Ph:
+        <a href="tel:9886162933" style="color: #ffd700; text-decoration: none"
+          >9886162933</a
+        >
+      </p>
+    </div>
+  </header>
+  <div class="announcement">
+    Fast & Reliable Battery Delivery Right at Your Doorstep!
+  </div>
+
+  <main>
+    <!-- Centered call us -->
+    <div class="call-us-container" aria-label="Call us now">
+      <a href="tel:9886162933" aria-describedby="call-desc"
+        >Call Us: 9886162933</a
+      >
+      <p id="call-desc" style="margin-top: 8px; font-weight: 500; color: #d32f2f">
+        Click the number to dial now
+      </p>
+    </div>
+
+    <section class="section">
+      <h2>Welcome to Sri Manjunatha Batteries</h2>
+      <p>
+        Welcome to Sri Manjunatha Batteries – your trusted battery shop near
+        Dmart and IKEA in Bagalgunte, Mallasandra, and Hesarghatta, Bengaluru.
+      </p>
+      <p>
+        We provide a wide range of batteries for two-wheelers, autos, cars,
+        inverters, and UPS systems. We stock trusted brands like
+        <strong>AMARON, EXIDE, SF SONIC, LIVFAST, MICROTEK</strong>, and other
+        reliable local options.
+      </p>
+      <p>
+        Our services include battery replacement, jump-start assistance, battery
+        health checkups, charging, expert maintenance advice, and distilled
+        water in 1L and 5L cans. We offer fast service, genuine products,
+        doorstep delivery, and professional support. Whether it’s for your home,
+        vehicle, or office backup power, count on us for affordable,
+        long-lasting battery solutions in your area.
+      </p>
+      <p><strong>Don't wait – give us a call today!</strong></p>
+    </section>
+    <section class="section">
+      <h2>Batteries We Offer</h2>
+      <div class="batteries">
+        <div class="card">
+          <img
+            src="https://5.imimg.com/data5/BJ/TJ/MY-9378723/four-wheeler-500x500.jpg"
+            alt="Amaron"
+          />
+          <p>Amaron</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://5.imimg.com/data5/DI/OO/SJ/SELLER-15102052/exide-battery-500x500.png"
+            alt="Exide"
+          />
+          <p>Exide</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.batteryboss.in/assets/images/batteryboss/battery/193_SF%20Sonic%20StanMaster%20SM4000%20(100AH).png"
+            alt="SF Sonic"
+          />
+          <p>SF Sonic</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://5.imimg.com/data5/YH/YH/GLADMIN-20327879/microtek-inverter-battery-500x500.png"
+            alt="Microtek"
+          />
+          <p>Microtek</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://5.imimg.com/data5/EF/YG/MY-5588797/livfast-inverter-battery-500x500.png"
+            alt="LivFast"
+          />
+          <p>LivFast</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3209/3209146.png"
+            alt="Local Brands"
+          />
+          <p>Local Brands</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Services Offered</h2>
+      <div class="services">
+        <div class="card">
+          <p>Battery Sales & Replacement</p>
+        </div>
+        <div class="card">
+          <p>Jump Start Services</p>
+        </div>
+        <div class="card">
+          <p>UPS Solutions for Homes & Offices</p>
+        </div>
+        <div class="card">
+          <p>Distilled Water Supply</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Distilled Water Available</h2>
+      <p>
+        We offer high-quality distilled water suitable for batteries, coolant
+        systems, and industrial use. Available in 1L bottles and 5L cans at
+        affordable prices.
+      </p>
+      <div class="distilled-water">
+        <img
+          src="https://chat.openai.com/cdn-cgi/imagedelivery/nc9kU2GvOgefXg_W5gYbuw/35aa99c2-4d51-43cb-9b5b-5a038327b8f6/public"
+          alt="Distilled Water Can"
+        />
+        <img
+          src="https://chat.openai.com/cdn-cgi/imagedelivery/nc9kU2GvOgefXg_W5gYbuw/ce3a6e59-1f00-4418-8ba1-6bd17181f429/public"
+          alt="Distilled Water Bottles"
+        />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Why Choose Us?</h2>
+      <p>
+        We combine speed, quality, and affordability. Our technicians are
+        experienced and our product range is wide and trusted. Most importantly,
+        we treat every customer like family.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>
+      For any queries, please feel free
